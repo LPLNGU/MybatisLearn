@@ -22,8 +22,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdb88d94-46f3-4ed9-9dda-3c33f53765ef" name="Default Changelist" comment="添加gitignore">
+    <list default="true" id="fdb88d94-46f3-4ed9-9dda-3c33f53765ef" name="Default Changelist" comment=".">
+      <change afterPath="$PROJECT_DIR$/mybatis-02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/java/com/mybatis/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/java/com/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/java/com/mybatis/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/java/com/mybatis/util/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-02/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/java/com/mybatis/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/mybatis/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01/src/main/java/com/mybatis/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/main/java/com/mybatis/dao/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01/src/test/java/com/mybatis/dao/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/src/test/java/com/mybatis/dao/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01/target/classes/com/mybatis/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/target/classes/com/mybatis/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01/target/classes/com/mybatis/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/target/classes/com/mybatis/dao/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-01/target/test-classes/com/mybatis/dao/UserMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-01/target/test-classes/com/mybatis/dao/UserMapperTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,8 +65,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1iDUvyoEXLWstu6GW4vUykkuOz5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -60,6 +77,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-02/src/main/java/com/mybatis/mapper" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -76,11 +94,46 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyWork\MybatisLearn\mybatis-02\src\main\java\com\mybatis\mapper" />
+      <recent name="E:\MyWork\MybatisLearn\mybatis-02\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mybatis.pojo" />
+      <recent name="com.mybatis.util" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\MyWork\MybatisLearn" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserMapperTest.deleteByIdTest">
+  <component name="RunManager" selected="JUnit.UserMapperTest.addByMapTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.addByMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mybatis.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mybatis.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.mybatis.dao.UserMapperTest" />
+      <option name="METHOD_NAME" value="addByMapTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserMapperTest.deleteByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-01" />
       <extension name="coverage">
@@ -108,22 +161,6 @@
       <option name="PACKAGE_NAME" value="com.mybatis.dao" />
       <option name="MAIN_CLASS_NAME" value="com.mybatis.dao.UserMapperTest" />
       <option name="METHOD_NAME" value="insertTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserMapperTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mybatis.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mybatis.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.mybatis.dao.UserMapperTest" />
-      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserMapperTest.addByMapTest" />
         <item itemvalue="JUnit.UserMapperTest.deleteByIdTest" />
         <item itemvalue="JUnit.UserMapperTest.updateTest" />
         <item itemvalue="JUnit.UserMapperTest.insertTest" />
         <item itemvalue="JUnit.UserMapperTest.testGetUserById" />
-        <item itemvalue="JUnit.UserMapperTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -190,6 +227,7 @@
       <workItem from="1601477008817" duration="2528000" />
       <workItem from="1601479616529" duration="216000" />
       <workItem from="1601479850043" duration="409000" />
+      <workItem from="1601539106759" duration="3946000" />
     </task>
     <task id="LOCAL-00001" summary="添加gitignore">
       <created>1601479977839</created>
@@ -198,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601479977839</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".">
+      <created>1601539242404</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601539242404</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,10 +259,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加gitignore" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="WindowStateProjectService">
     <state x="539" y="163" key="#HTTP_Proxy" timestamp="1601451500038">
@@ -244,22 +291,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601471504365" />
-    <state width="1493" height="666" key="GridCell.Tab.0.bottom" timestamp="1601479563418">
+    <state width="1493" height="666" key="GridCell.Tab.0.bottom" timestamp="1601543210290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="666" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601479563418" />
-    <state width="1493" height="666" key="GridCell.Tab.0.center" timestamp="1601479563418">
+    <state width="1493" height="666" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601543210290" />
+    <state width="1493" height="666" key="GridCell.Tab.0.center" timestamp="1601543210290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="666" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601479563418" />
-    <state width="1493" height="666" key="GridCell.Tab.0.left" timestamp="1601479563417">
+    <state width="1493" height="666" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601543210290" />
+    <state width="1493" height="666" key="GridCell.Tab.0.left" timestamp="1601543210290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="666" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601479563417" />
-    <state width="1493" height="666" key="GridCell.Tab.0.right" timestamp="1601479563418">
+    <state width="1493" height="666" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601543210290" />
+    <state width="1493" height="666" key="GridCell.Tab.0.right" timestamp="1601543210290">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="666" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601479563418" />
+    <state width="1493" height="666" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601543210290" />
     <state width="212" height="477" key="HiddenNamespacesPopup" timestamp="1601451018899">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -276,13 +323,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601479835819" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601480089102">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601539248857">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601480089102" />
-    <state x="401" y="72" key="new project wizard" timestamp="1601469161757">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601539248857" />
+    <state x="401" y="72" key="new project wizard" timestamp="1601541772949">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="401" y="72" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1601469161757" />
+    <state x="401" y="72" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1601541772949" />
   </component>
 </project>
